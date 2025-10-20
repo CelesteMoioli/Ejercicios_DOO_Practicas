@@ -1,5 +1,7 @@
-JERCICIOS DE PRACTICA 
+EJERCICIOS DE PRACTICA 
 DESARROLLO DE SISTEMAS ORIENTADOS A OBJETOS
+
+---------------------FALTA COMPLETAR EL MAIN 19/10---------------------
 
 Se requiere considerar a todos los atributos como protected a menos que se indique lo contrario y 
 los getters y setters correspondientes a cada atributo.
