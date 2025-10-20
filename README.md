@@ -9,6 +9,7 @@ Defina dentro del main métodos para:
 Agregar un nuevo elemento (de cualquier tipo).
  Modificar los datos de un elemento existente.
  Eliminar un elemento por su Id.
+ 
  Ejercicio 1 – Gestión de vehículos
  
  Diseñe un sistema para administrar los vehículos que ingresan a un taller.
@@ -17,6 +18,7 @@ Agregar un nuevo elemento (de cualquier tipo).
 ejemplo, cantidadPuertas, cilindrada, capacidadCarga).
 
  Ejercicio 2 – Sistema de empleados
+ 
  Implemente una aplicación para gestionar empleados de una empresa.
  Cree una clase Empleado con Id, Nombre, Apellido y SueldoBase.
  Genere las clases hijas EmpleadoPermanente y EmpleadoTemporal, que redefinan el método 
@@ -24,6 +26,7 @@ CalcularSueldo() según su modalidad. Un ejemplo podría ser que el empleado per
 extra de antigüedad. 
 
 Ejercicio 3 – Inventario de productos
+
  Se desea desarrollar un sistema para gestionar el inventario de una tienda.
  Cree una clase padre Producto con los atributos Id, Nombre y PrecioBase.
  A partir de ella, crear las clases hijas ProductoAlimenticio (con FechaVencimiento) y 
@@ -32,6 +35,7 @@ ProductoElectronico (con MesesGarantia).
  Listar todo el inventario mostrando el tipo de producto.
  
  Ejercicio 4 – Gestión educativa
+ 
  Desarrolle un sistema para registrar las personas de una institución educativa.
  Cree la clase padre Persona con Id, Nombre, Edad.
  Crear las clases hijas Alumno (con Legajo y Promedio) y Profesor (con Materia y Sueldo).
@@ -39,6 +43,7 @@ ProductoElectronico (con MesesGarantia).
  Listado general, diferenciando alumnos y profesores.
  
 Ejercicio 5 – Sistema bancario
+
  Cree una aplicación para administrar cuentas bancarias.
  Defina la clase Cuenta con NumeroCuenta, Titular y Saldo.
  Clases hijas: CajaAhorro (con tasa de interés) y CuentaCorriente (con límite de descubierto).
