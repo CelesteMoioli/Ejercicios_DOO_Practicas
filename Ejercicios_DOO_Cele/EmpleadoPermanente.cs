@@ -9,7 +9,10 @@ namespace Ejercicios_DOO_Cele
     internal class EmpleadoPermanente : Empleado
     {
         protected int Antiguedad { get; set; }
-        protected double Extra { get; set; }
+        protected double Extra { get; set; } = 400000.00;
+
+        public int GetanioAntiguedad() => Antiguedad;
+        public void SetanioAntiguedad(int AnioAntiguedad) => Antiguedad = AnioAntiguedad;
 
         public EmpleadoPermanente() { }
         public EmpleadoPermanente(int id, string nombre, string Apellido, double sueldo, int Antiguedad, double extra): base (id, nombre, Apellido, sueldo)

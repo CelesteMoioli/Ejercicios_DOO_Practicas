@@ -9,7 +9,10 @@ namespace Ejercicios_DOO_Cele
     internal class EmpleadoTemporal : Empleado
     {
         protected int DiasTrabajados { get; set; }
-        protected double PagoxHora { get; set; }
+        protected double PagoxHora { get; set; } = 500000.00;
+
+        public int GethorasTrabajadas() => DiasTrabajados;
+        public void SethorasTrabajadas(int DDiasTrabajados) => DiasTrabajados = DDiasTrabajados;
 
         public EmpleadoTemporal() { }
         public EmpleadoTemporal(int id, string nombre, string Apellido, double sueldo, int DiasTrabajados, double pagoxhora) : base (id, nombre, Apellido, sueldo)

@@ -10,6 +10,9 @@ namespace Ejercicios_DOO_Cele
     {
         protected int CapacidadCarga { get; set; }
 
+        public int GetCapacidadCarga() => CapacidadCarga;
+        public void SetCapacidadCarga(int capacidadCarga) => CapacidadCarga = capacidadCarga;
+
         public Camion() { }
         public Camion(int id, string marca, string modelo, int anio, int capacidadcarga) : base (id, marca, modelo, anio)
         {

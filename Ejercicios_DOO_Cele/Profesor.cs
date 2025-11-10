@@ -11,7 +11,7 @@ namespace Ejercicios_DOO_Cele
         protected string Materia { get; set; }
         protected double Sueldo { get; set; }
         public Profesor() { }
-        public Profesor(int id, string nombre, int edad, string Materia, double sueldo, double promedio) : base(id, nombre, edad)
+        public Profesor(int id, string nombre, int edad, string Materia, double sueldo) : base(id, nombre, edad)
         {
             this.Materia = Materia;
             this.Sueldo = sueldo;

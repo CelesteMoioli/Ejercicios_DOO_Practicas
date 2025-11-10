@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Ejercicios_DOO_Cele
@@ -12,6 +14,19 @@ namespace Ejercicios_DOO_Cele
         protected string Marca { get; set;}
         protected string Modelo {  get; set;}
         protected int Anio { get; set;}
+
+
+        public int GetIdVehiculo() => Id;
+        public void SetIdVehiculo(int id) => Id = id;
+
+        public string GetMarca() => Marca;
+        public void SetMarca(string valor) => Marca = valor;
+
+        public string GetModelo() => Modelo;
+        public void SetModelo(string valor) => Modelo = valor;
+
+        public int GetAnio() => Anio;
+        public void SetAnio(int valor) => Anio = valor;
 
         public Vehiculo() { }
         public Vehiculo (int id, string marca, string modelo, int anio)

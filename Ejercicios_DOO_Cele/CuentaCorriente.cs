@@ -10,6 +10,9 @@ namespace Ejercicios_DOO_Cele
     {
         private double limiteDescubierto;
 
+        public double GetLimiteDescubierto() => limiteDescubierto;
+        public void SetLimiteDescubierto(double limite) => limiteDescubierto = limite;
+
         public CuentaCorriente(int numeroCuenta, string titular, double limiteDescubierto): base(numeroCuenta, titular)
         {
             this.limiteDescubierto = limiteDescubierto;

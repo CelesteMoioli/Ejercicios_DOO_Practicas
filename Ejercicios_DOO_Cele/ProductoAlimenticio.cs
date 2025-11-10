@@ -8,9 +8,9 @@ namespace Ejercicios_DOO_Cele
 {
     internal class ProductoAlimenticio : Producto
     {
-        protected string FechaVencimiento {  get; set; }
+        protected DateTime FechaVencimiento {  get; set; }
         public ProductoAlimenticio() { }
-        public ProductoAlimenticio(int id, string nombre, double precioBase, string fechavencimiento) : base(id, nombre, precioBase)
+        public ProductoAlimenticio(int id, string nombre, double precioBase, DateTime fechavencimiento) : base(id, nombre, precioBase)
         {
             this.FechaVencimiento = fechavencimiento;
         }

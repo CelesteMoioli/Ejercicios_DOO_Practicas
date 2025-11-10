@@ -9,7 +9,10 @@ namespace Ejercicios_DOO_Cele
     internal class Moto : Vehiculo
     {
         protected int cilindrada { get; set; }
-       
+
+        public int GetCilindrada() => cilindrada;
+        public void SetCilindrada(int CILINDRADA) => cilindrada = CILINDRADA;
+
         public Moto() { }
         public Moto(int id, string marca, string modelo, int anio, int cilindrada) : base (id, marca, modelo, anio)
         {

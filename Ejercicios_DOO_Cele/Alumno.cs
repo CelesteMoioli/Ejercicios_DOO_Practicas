@@ -10,6 +10,12 @@ namespace Ejercicios_DOO_Cele
     {
         protected int Legajo { get; set; }
         protected double Promedio { get; set; }
+
+        public int Getlegajo() => Legajo;
+        public double Getpromedio() => Promedio;
+
+        public void Setlegajo(int Legajo) => Legajo = Legajo;
+        public void Setpromedio(int PPromedio) => Promedio = PPromedio;
         public Alumno() { }
         public Alumno(int id, string nombre, int edad, int legajo, double promedio) : base(id, nombre, edad)
         {

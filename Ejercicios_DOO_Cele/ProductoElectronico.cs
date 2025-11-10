@@ -9,6 +9,10 @@ namespace Ejercicios_DOO_Cele
     internal class ProductoElectronico : Producto
     {
         protected int MesesGarantia { get; set; }
+
+        public int GetMesesDeGarantia() => MesesGarantia;
+
+        public void SetMesesDeGarantia(int mesesDeGarantia) => MesesGarantia = mesesDeGarantia;
         public ProductoElectronico() { }
         public ProductoElectronico(int id, string nombre, double precioBase,int MesesGarantia) : base(id, nombre, precioBase)
         {

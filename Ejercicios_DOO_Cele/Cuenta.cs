@@ -11,6 +11,10 @@ namespace Ejercicios_DOO_Cele
         protected int NumCuenta { get; set; }
         protected string titular { get; set; }
         protected double saldo { get; set; } = 0.00;
+
+        public int GetNumeroCuenta() => NumCuenta;
+        public string GetTitular() => titular;
+        public double GetSaldo() => saldo;
         public Cuenta()
         {
         }

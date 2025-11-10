@@ -9,18 +9,19 @@ namespace Ejercicios_DOO_Cele
     internal class Auto : Vehiculo
     {
         protected int cantidadPuertas {  get; set; }
-        protected string color {  get; set; }
+
+        public int GetCantPuertas() => cantidadPuertas;
+        public void SetCantPuertas(int CANTPuertas) => cantidadPuertas = CANTPuertas;
 
         public Auto() { }
-        public Auto(int id, string marca, string modelo,int anio, int cantPuertas, string color) : base (id, marca, modelo, anio)
+        public Auto(int id, string marca, string modelo,int anio, int cantPuertas) : base (id, marca, modelo, anio)
         {
             this.cantidadPuertas = cantPuertas;
-            this.color = color;
         }
         public override void MostrarInfo()
         {
             base.MostrarInfo();
-            Console.WriteLine($"Cantidad de puertas: {this.cantidadPuertas}, Color: {this.color}");
+            Console.WriteLine($"Cantidad de puertas: {this.cantidadPuertas}");
         }
     }
 }
